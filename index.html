@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 3</title>
+    <style>
+        /* element selector */
+        div{
+            background-color: red;
+        }
+        /* class selector  */
+        .yellow{
+            background-color: yellow;
+        }
+        /* ID selector  */
+        #green{
+            background-color: green;
+        }
+        /* child selector  */
+        div > article{
+            background-color: blue;
+            color: aqua;
+        }
+        /* descendent selector  */
+        div p{
+            background-color: tomato;
+            color: steelblue;
+        }
+        /* pseudo selector  */
+        a:active{color: aqua;}
+        a:hover{color: red;}
+        
+
+    </style>
+</head>
+<body>
+    <div>hey first div</div>
+    <div class="yellow"> hey, im second div</div>
+    <div id="green">hey, im third div</div>
+    <div><H1>Hey nice to meet you im forth div</H1>
+        <article>hey im your child </article>
+    </div>
+    <div>hey im fifth div 
+        <article>nice to meet you
+            <p>hey im sixth</p>
+        </article>
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.Facebook.com">Go to Facebook</a>
+</body>
+</html>
